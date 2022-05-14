@@ -12,17 +12,32 @@ export default function Profile({ timeframe, setTimeframe }) {
           <li
             className={timeframe === "daily" ? "text-white" : "text-gray-400"}
           >
-            <button onClick={() => setTimeframe("daily")}>Daily</button>
+            <button
+              className="hover:text-white hover:cursor-pointer"
+              onClick={() => setTimeframe("daily")}
+            >
+              Daily
+            </button>
           </li>
           <li
             className={timeframe === "weekly" ? "text-white" : "text-gray-500"}
           >
-            <button onClick={() => setTimeframe("weekly")}>Weekly</button>
+            <button
+              className="hover:text-white hover:cursor-pointer"
+              onClick={() => setTimeframe("weekly")}
+            >
+              Weekly
+            </button>
           </li>
           <li
             className={timeframe === "monthly" ? "text-white" : "text-gray-400"}
           >
-            <button onClick={() => setTimeframe("monthly")}>Monthly</button>
+            <button
+              className="hover:text-white hover:cursor-pointer"
+              onClick={() => setTimeframe("monthly")}
+            >
+              Monthly
+            </button>
           </li>
         </ul>
       </div>

@@ -12,10 +12,10 @@ export default function Tracker({ data, timeframe }) {
               <Image src={item.image} alt={item.title} width={50} height={50} />
             </div>
           </div>
-          <div className="bg-darkBlue h-full p-4 rounded-lg top-7 absolute w-full">
+          <div className="bg-darkBlue hover:bg-desaturatedBlue hover:cursor-pointer h-full p-4 rounded-lg top-7 absolute w-full">
             <div className="flex justify-between align-center mb-4 ">
               <h2 className="text-white text-tiny font-medium">{item.title}</h2>
-              <div className="-translate-y-2 scale-90">
+              <div className="-translate-y-2 scale-90 hover:scale-110">
                 <Image
                   src="/icon-ellipsis.svg"
                   alt="Ellipsis"
