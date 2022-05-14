@@ -20,7 +20,7 @@ export default function Profile({ timeframe, setTimeframe }) {
             </button>
           </li>
           <li
-            className={timeframe === "weekly" ? "text-white" : "text-gray-500"}
+            className={timeframe === "weekly" ? "text-white" : "text-gray-400"}
           >
             <button
               className="hover:text-white hover:cursor-pointer"

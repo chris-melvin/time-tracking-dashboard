@@ -23,14 +23,17 @@ export default function Home() {
         Challenge by{" "}
         <a
           className="text-gray-400"
-          href="https://www.frontendmentor.io?ref=challenge"
+          href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw"
           target="_blank"
           rel="noreferrer"
         >
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a className="text-blue-600" href="#">
+        <a
+          className="text-blue-600"
+          href="https://www.frontendmentor.io/profile/chris-melvin"
+        >
           Chris Melvin
         </a>
         .
